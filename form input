@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action_page.php method="get">
+    <div>
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" placeholder="yyy" required>
+    </div>
+    <br>
+    <div>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" placeholder="xxx" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">password: </label>
+        <input type="password" id="password" required>
+    </div>
+    <br>
+    <div>
+        <label for="b">born:</label>
+        <input type="date" id="b">
+    </div>
+    <br>
+    <div>
+        <label>Male</label>
+        <input type="radio">
+    </div>
+    <br>
+    <div>
+    <label>female</label>
+        <input type="radio">
+    </div>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
